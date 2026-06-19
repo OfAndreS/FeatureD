@@ -1,7 +1,7 @@
 graph TD
     A[Gemma 4 31B SFP8 + Few-shot] --> B(Geração de Dados Sintéticos)
     B --> C(Padronização Léxica)
-    C --> D[(Corpus Sintético Rotulado)]
+    C --> D[(Dados Sintético Rotulado)]
     D --> E[Encoder: BAAI/bge-large-en-v1.5]
     E --> F(Ajuste Fino: Batch Hard Triplet Loss)
     F --> G[Matriz de Embeddings Calibrada]
@@ -9,6 +9,3 @@ graph TD
     H --> I[Logistic Regression]
     H --> J[Random Forest]
     H --> K[SVM]
-    I --> L([Fronteiras de Decisão Consolidadas])
-    J --> L
-    K --> L
