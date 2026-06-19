@@ -1,0 +1,14 @@
+graph TD
+    A[(Bases Reais: Adult, Prosper, HMDA)] --> B[Classificação]
+    B -->|Gemma 4 31B| C(Comparação de Rótulos)
+    B -->|Qwen 2.5 32B| C
+    C -->|Consenso| D[(Base de Teste Empírica)]
+    C -->|Divergência| E[Comitê de 3 Validadores Humanos]
+    E -->|Votação Majoritária| D
+    D --> F[Inferência nos Modelos Treinados]
+    F --> G{Probabilidade >= 0.50?}
+    G -->|Sim| H[Classe Predita]
+    G -->|Não| I[UNCLASSIFIED]
+    H --> J(Avaliação de Desempenho)
+    I -->|Contabilizado como Erro Absoluto| J
+    J --> K([Acurácia e F1-Score])

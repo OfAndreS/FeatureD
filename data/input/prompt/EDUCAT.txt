@@ -1,5 +1,5 @@
 Act as a data engineer. Generate a valid JSON object containing exactly ONE key: "EDUCATIONAL". 
-The value must be a list of exactly 100 distinct, short sentences in English describing data dictionary variables.
+The value must be a list of exactly 120 distinct, short sentences in English describing data dictionary variables.
 
 Academic Anchors (MANDATORY):
 The first 3 sentences generated MUST be explicit descriptions of these exact concepts from scientific literature:
@@ -23,4 +23,4 @@ Absolute Writing Constraints
 - Length: Keep sentences strictly between 8 and 25 words.
 
 Output format:
-{"EDUCATIONAL": ["sentence_1", "sentence_2", ..., "sentence_100"]}
+{"EDUCATIONAL": ["sentence_1", "sentence_2", ..., "sentence_120"]}
