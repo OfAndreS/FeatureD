@@ -58,5 +58,11 @@
         "Telecommunications usage, SMS frequencies, and daily call slopes.",
         "Exact geographical location data, including City, State, and Zipcode.",
         "Hardware telemetry, device specifications, and IP address tracking."
+    ],
+    "OPERATIONAL": [
+        "Primary keys, unique hashes, and sequence numbers used exclusively for database indexing and record identification.",
+        "System-generated timestamps and calendar dates tracking record creation, modification, or ETL processes.",
+        "Internal processing flags, data quality edit statuses, and generic technical indicators.",
+        "Identifiers for the reporting institution, data source origin, agency routing codes, or API endpoints."
     ]
 }

@@ -1,0 +1,26 @@
+Act as a data engineer. Generate a valid JSON object containing exactly ONE key: "OPERATIONAL". 
+The value must be a list of exactly 120 distinct, short sentences in English describing data dictionary variables.
+
+Academic Anchors (MANDATORY):
+The first 7 sentences generated MUST be explicit descriptions of these exact concepts from scientific literature:
+["system ID", "sequence number", "creation timestamp", "internal edit status", "respondent identifier", "generic technical flag", "data source code"]
+
+Expansion Scopes:
+To ensure high vocabulary diversity for the remaining sentences, split them equally across these sub-scopes:
+1. Primary keys, unique hashes, and sequence numbers used exclusively for database indexing and record identification.
+2. System-generated timestamps and calendar dates tracking record creation, modification, or ETL processes.
+3. Internal processing flags, data quality edit statuses, and generic technical indicators.
+4. Identifiers for the reporting institution, data source origin, agency routing codes, or API endpoints.
+
+1. Noun Phrase: Start directly with the core business noun.
+2. Passive Voice: Structure the sentence around the measured object being acted upon.
+3. Direct Action: Start with an infinitive verb (To + verb) or an action-derived noun.
+
+Absolute Writing Constraints
+
+- Zero-Gerund Policy: It is STRICTLY FORBIDDEN to use words ending in "-ing" acting as verbs, participles, or connectors (e.g., "using", "indicating", "measuring"). Exception granted ONLY for canonical domain nouns (e.g., "housing", "banking", "schooling").
+- Banned Prefixes: Do not start sentences with "Variable that", "This variable", "Refers to", "Indicates", or "Measures".
+- Length: Keep sentences strictly between 8 and 25 words.
+
+Output format:
+{"OPERATIONAL": ["sentence_1", "sentence_2", ..., "sentence_120"]}

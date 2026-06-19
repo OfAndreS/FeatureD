@@ -1,11 +1,11 @@
 ﻿id,var,desc,macro_class
-D15,ListingKey,"Unique key for each listing, same value as the 'key' used in the listing object in the API.",UNCLASSIFIED
-D15,ListingNumber,The number that uniquely identifies the listing to the public as displayed on the website.,UNCLASSIFIED
-D15,ListingCreationDate,The date the listing was created.,UNCLASSIFIED
+D15,ListingKey,"Unique key for each listing, same value as the 'key' used in the listing object in the API.",OPERATIONAL
+D15,ListingNumber,The number that uniquely identifies the listing to the public as displayed on the website.,OPERATIONAL
+D15,ListingCreationDate,The date the listing was created.,OPERATIONAL
 D15,CreditGrade,The Credit rating that was assigned at the time the listing went live. Applicable for listings pre-2009 period and will only be populated for those listings.,INSTITUTIONAL and FINANCIAL
 D15,Term,The length of the loan expressed in months.,INSTITUTIONAL and FINANCIAL
 D15,LoanStatus,"The current status of the loan: Cancelled, Chargedoff, Completed, Current, Defaulted, FinalPaymentInProgress, PastDue. The PastDue status will be accompanied by a delinquency bucket.",INSTITUTIONAL and FINANCIAL
-D15,ClosedDate,"Closed date is applicable for Cancelled, Completed, Chargedoff and Defaulted loan statuses.",UNCLASSIFIED
+D15,ClosedDate,"Closed date is applicable for Cancelled, Completed, Chargedoff and Defaulted loan statuses.",OPERATIONAL
 D15,BorrowerAPR,The Borrower's Annual Percentage Rate (APR) for the loan.,INSTITUTIONAL and FINANCIAL
 D15,BorrowerRate,The Borrower's interest rate for this loan.,INSTITUTIONAL and FINANCIAL
 D15,LenderYield,The Lender yield on the loan. Lender yield is equal to the interest rate on the loan less the servicing fee.,INSTITUTIONAL and FINANCIAL
@@ -22,11 +22,11 @@ D15,EmploymentStatus,The employment status of the borrower at the time they post
 D15,EmploymentStatusDuration,The length in months of the employment status at the time the listing was created.,SOCIOECONOMIC
 D15,IsBorrowerHomeowner,A Borrower will be classified as a homowner if they have a mortgage on their credit profile or provide documentation confirming they are a homeowner.,SOCIOECONOMIC
 D15,CurrentlyInGroup,Specifies whether or not the Borrower was in a group at the time the listing was created.,ALTERNATIVE
-D15,GroupKey,The Key of the group in which the Borrower is a member of. Value will be null if the borrower does not have a group affiliation.,UNCLASSIFIED
-D15,DateCreditPulled,The date the credit profile was pulled.,UNCLASSIFIED
+D15,GroupKey,The Key of the group in which the Borrower is a member of. Value will be null if the borrower does not have a group affiliation.,OPERATIONAL
+D15,DateCreditPulled,The date the credit profile was pulled.,OPERATIONAL
 D15,CreditScoreRangeLower,The lower value representing the range of the borrower's credit score as provided by a consumer credit rating agency.,INSTITUTIONAL and FINANCIAL
 D15,CreditScoreRangeUpper,The upper value representing the range of the borrower's credit score as provided by a consumer credit rating agency.,INSTITUTIONAL and FINANCIAL
-D15,FirstRecordedCreditLine,The date the first credit line was opened.,UNCLASSIFIED
+D15,FirstRecordedCreditLine,The date the first credit line was opened.,OPERATIONAL
 D15,CurrentCreditLines,Number of current credit lines at the time the credit profile was pulled.,INSTITUTIONAL and FINANCIAL
 D15,OpenCreditLines,Number of open credit lines at the time the credit profile was pulled.,INSTITUTIONAL and FINANCIAL
 D15,TotalCreditLinespast7years,Number of credit lines in the past seven years at the time the credit profile was pulled.,INSTITUTIONAL and FINANCIAL
@@ -49,7 +49,7 @@ D15,DebtToIncomeRatio,The debt to income ratio of the borrower at the time the c
 D15,IncomeRange,The income range of the borrower at the time the listing was created.,SOCIOECONOMIC
 D15,IncomeVerifiable,The borrower indicated they have the required documentation to support their income.,SOCIOECONOMIC
 D15,StatedMonthlyIncome,The monthly income the borrower stated at the time the listing was created.,SOCIOECONOMIC
-D15,LoanKey,Unique key for each loan. This is the same key that is used in the API.,UNCLASSIFIED
+D15,LoanKey,Unique key for each loan. This is the same key that is used in the API.,OPERATIONAL
 D15,TotalProsperLoans,Number of Prosper loans the borrower at the time they created this listing. This value will be null if the borrower had no prior loans.,INSTITUTIONAL and FINANCIAL
 D15,TotalProsperPaymentsBilled,Number of on time payments the borrower made on Prosper loans at the time they created this listing. This value will be null if the borrower had no prior loans.,INSTITUTIONAL and FINANCIAL
 D15,OnTimeProsperPayments,Number of on time payments the borrower had made on Prosper loans at the time they created this listing. This value will be null if the borrower has no prior loans.,INSTITUTIONAL and FINANCIAL
@@ -61,11 +61,11 @@ D15,ScorexChangeAtTimeOfListing,Borrower's credit score change at the time the c
 D15,LoanCurrentDaysDelinquent,The number of days delinquent.,INSTITUTIONAL and FINANCIAL
 D15,LoanFirstDefaultedCycleNumber,The cycle the loan was charged off. If the loan has not charged off the value will be null.,INSTITUTIONAL and FINANCIAL
 D15,LoanMonthsSinceOrigination,Number of months since the loan originated.,INSTITUTIONAL and FINANCIAL
-D15,LoanNumber,Unique numeric value associated with the loan.,UNCLASSIFIED
+D15,LoanNumber,Unique numeric value associated with the loan.,OPERATIONAL
 D15,LoanOriginalAmount,The origination amount of the loan.,INSTITUTIONAL and FINANCIAL
-D15,LoanOriginationDate,The date the loan was originated.,UNCLASSIFIED
-D15,LoanOriginationQuarter,The quarter in which the loan was originated.,UNCLASSIFIED
-D15,MemberKey,The unique key that is associated with the borrower. This is the same identifier that is used in the API member object.,UNCLASSIFIED
+D15,LoanOriginationDate,The date the loan was originated.,OPERATIONAL
+D15,LoanOriginationQuarter,The quarter in which the loan was originated.,OPERATIONAL
+D15,MemberKey,The unique key that is associated with the borrower. This is the same identifier that is used in the API member object.,OPERATIONAL
 D15,MonthlyLoanPayment,The scheduled monthly loan payment.,INSTITUTIONAL and FINANCIAL
 D15,LP_CustomerPayments,"Pre charge-off cumulative gross payments made by the borrower on the loan. If the loan has charged off, this value will exclude any recoveries.",INSTITUTIONAL and FINANCIAL
 D15,LP_CustomerPrincipalPayments,"Pre charge-off cumulative principal payments made by the borrower on the loan. If the loan has charged off, this value will exclude any recoveries.",INSTITUTIONAL and FINANCIAL

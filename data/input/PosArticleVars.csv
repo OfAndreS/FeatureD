@@ -82,3 +82,10 @@ SMS sending pattern,ALTERNATIVE
 number of messages,ALTERNATIVE
 disclosure of social media profile,ALTERNATIVE
 geographical locations.,ALTERNATIVE
+system ID,OPERATIONAL
+sequence number,OPERATIONAL
+creation timestamp,OPERATIONAL
+internal edit status,OPERATIONAL
+respondent identifier,OPERATIONAL
+generic technical flag,OPERATIONAL
+data source code,OPERATIONAL
