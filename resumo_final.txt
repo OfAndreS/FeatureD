@@ -1,0 +1,55 @@
+
+| RESUMO FINAL
+
+Modelo: Regressao_Logistica
+Acurácia: 0.7302
+                                  precision    recall  f1-score   support
+
+                     ALTERNATIVE       0.00      0.00      0.00        10
+                     DEMOGRAPHIC       0.73      0.89      0.80         9
+     INSTITUTIONAL and FINANCIAL       0.74      0.97      0.84        64
+                   MACROECONOMIC       0.83      0.83      0.83         6
+                     OPERATIONAL       0.67      0.59      0.62        17
+                     SITUATIONAL       0.00      0.00      0.00         0
+                   SOCIOECONOMIC       0.78      0.39      0.52        18
+VALUES, ATTITUDES and BEHAVIORAL       0.00      0.00      0.00         2
+
+                        accuracy                           0.73       126
+                       macro avg       0.47      0.46      0.45       126
+                    weighted avg       0.67      0.73      0.68       126
+
+
+Modelo: Random_Forest
+Acurácia: 0.7143
+                                  precision    recall  f1-score   support
+
+                     ALTERNATIVE       0.00      0.00      0.00        10
+                     DEMOGRAPHIC       0.67      0.89      0.76         9
+     INSTITUTIONAL and FINANCIAL       0.73      0.97      0.83        64
+                   MACROECONOMIC       0.75      0.50      0.60         6
+                     OPERATIONAL       0.67      0.59      0.62        17
+                   SOCIOECONOMIC       0.70      0.39      0.50        18
+VALUES, ATTITUDES and BEHAVIORAL       0.00      0.00      0.00         2
+
+                        accuracy                           0.71       126
+                       macro avg       0.50      0.48      0.47       126
+                    weighted avg       0.64      0.71      0.66       126
+
+
+Modelo: SVM_Linear
+Acurácia: 0.7222
+                                  precision    recall  f1-score   support
+
+                     ALTERNATIVE       0.00      0.00      0.00        10
+                     DEMOGRAPHIC       0.67      0.89      0.76         9
+     INSTITUTIONAL and FINANCIAL       0.74      0.97      0.84        64
+                   MACROECONOMIC       0.80      0.67      0.73         6
+                     OPERATIONAL       0.67      0.59      0.62        17
+                     SITUATIONAL       0.00      0.00      0.00         0
+                   SOCIOECONOMIC       0.78      0.39      0.52        18
+VALUES, ATTITUDES and BEHAVIORAL       0.00      0.00      0.00         2
+
+                        accuracy                           0.72       126
+                       macro avg       0.46      0.44      0.43       126
+                    weighted avg       0.66      0.72      0.67       126
+

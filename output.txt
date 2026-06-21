@@ -1,0 +1,55 @@
+Adult
+
+| Iniciando avaliação: Regressao_Logistica
+| Acurácia Global (Regressao_Logistica): 0.6667
+| Média de Confiança (Regressao_Logistica): 0.7085
+
+| Iniciando avaliação: Random_Forest
+| Acurácia Global (Random_Forest): 0.6667
+| Média de Confiança (Random_Forest): 0.6033
+
+| Iniciando avaliação: SVM_Linear
+| Acurácia Global (SVM_Linear): 0.6667
+| Média de Confiança (SVM_Linear): 0.6663
+
+HMDA
+
+| Iniciando avaliação: Regressao_Logistica
+| Acurácia Global (Regressao_Logistica): 0.6333
+| Média de Confiança (Regressao_Logistica): 0.7549
+
+| Iniciando avaliação: Random_Forest
+| Acurácia Global (Random_Forest): 0.5667
+| Média de Confiança (Random_Forest): 0.5663
+
+| Iniciando avaliação: SVM_Linear
+| Acurácia Global (SVM_Linear): 0.6000
+| Média de Confiança (SVM_Linear): 0.728
+
+Prosper
+
+| Iniciando avaliação: Regressao_Logistica
+| Acurácia Global (Regressao_Logistica): 0.7778
+| Média de Confiança (Regressao_Logistica): 0.8973
+
+| Iniciando avaliação: Random_Forest
+| Acurácia Global (Random_Forest): 0.7778
+| Média de Confiança (Random_Forest): 0.8520
+
+| Iniciando avaliação: SVM_Linear
+| Acurácia Global (SVM_Linear): 0.7778
+| Média de Confiança (SVM_Linear): 0.8698
+
+All
+
+| Iniciando avaliação: Regressao_Logistica
+| Acurácia Global (Regressao_Logistica): 0.7302
+| Média de Confiança (Regressao_Logistica): 0.8410
+
+| Iniciando avaliação: Random_Forest
+| Acurácia Global (Random_Forest): 0.7143
+| Média de Confiança (Random_Forest): 0.7544
+
+| Iniciando avaliação: SVM_Linear
+| Acurácia Global (SVM_Linear): 0.7222
+| Média de Confiança (SVM_Linear): 0.8120
